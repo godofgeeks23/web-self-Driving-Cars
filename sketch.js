@@ -1,21 +1,18 @@
-function setup() { 
-      
+function setup() {
+
     // Create Canvas of given size 
-    createCanvas(400, 300); 
-  
-} 
-  
-function draw() { 
-      
+    createCanvas(400, 300);
+
+}
+
+function draw() {
+
     background(220);
-      
     // Use color() function
-    let c = color('green');
-  
+    let c = color('red');
     // Use fill() function to fill color
     fill(c);
-    
     // Draw a circle 
-    circle(200, 100, 150); 
-    
+    circle(mouseX, mouseY, 150);
+
 }
